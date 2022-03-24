@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    display: flex;
+    text-align: center; /*texto alinhado no centro*/
+    align-items: center; /*itens alinhado no centro*/
+    flex-direction: column; /*coluna no centro*/
+
+}
+
+header{
+    margin: auto;
+    background: green;
+    width: 100%;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+#form{
+    width: 30%;
+    padding: 30px;
+    border: 20px 20px green;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: 20%;
+    height:30px;
+    box-sizing: border-box;
+}
+
+button:hover{
+    cursor: pointer; /*aparece icone mão mouse no botão*/
+    background-color: /*trocar de cor ao passar o mouse por cima*/ rgb(0, 82, 0);
+}
+
+h3{
+    font-family: sans-serif;
+}
